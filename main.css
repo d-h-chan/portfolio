@@ -2,46 +2,59 @@
   box-sizing: border-box;
 }
 
+/*Abril Fatface & Lato*/
+
+
+
+h1 {
+    font-family: "Abril FatFace";
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    display: inline;
+}
+
+h2 {
+    font-family: "Lustria";
+    margin-bottom: 3px;
+}
+
 body {
-  font-family: "Open Sans",
-  sans-serif; 
-  font-size: 20px;
-  color: #444;
+  font-family: "Lato";
+  color: #282828;
+  background-color: whitesmoke;
   text-align: center;
   line-height: 1.5;
+  margin: 0;
+  margin-top: 50px;
 }
 
-nav,
-footer {
-  padding: 1% 0;
-  background-color: #aaa;
+p {
+    text-align: left;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
+.about {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-
-header {
-  padding: 12% 0;
-}
-
-section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
-}
-
-section:nth-child(even) {
-  background-color: #ddd;
+.initials {
+    font-family: "Abril FatFace";
+    letter-spacing: -2px;
+    padding: 10px;
 }
 
 nav {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -51,10 +64,6 @@ nav {
 .fa-bars {
     padding: 0 10px;
 
-}
-
-.initials {
-    padding: 0 10px;
 }
 
 .project {
@@ -67,4 +76,11 @@ nav {
 .links {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
 }
+
+.links i {
+    font-size: 30px;
+}
+
