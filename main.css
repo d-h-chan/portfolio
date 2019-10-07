@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-/*Abril Fatface & Lato*/
-
-
-
 h1 {
     font-family: "Abril FatFace";
     margin: 0;
@@ -31,9 +27,14 @@ body {
 
 p {
     text-align: left;
-    max-width: 300px;
+    max-width: 400px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .about {
@@ -67,10 +68,12 @@ nav {
 }
 
 .project {
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    margin: 10px auto;
+    width: 70%;
+    max-width: 400px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 2px;
 }
 
 .links {

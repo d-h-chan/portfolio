@@ -9,10 +9,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation">
-        <div class="initials">DC</div>
-        <i class="fas fa-bars"></i>
-    </nav>
+    
     <main role="main">
 
         <header role="banner">
@@ -20,7 +17,7 @@
             <div><h1>CHAN / DESIGN</h1></div>
         </header>
 
-        <section class = "about">
+        <section role = "about" class = "about">
             <h1>~</h1>
             <h2>About</h2>
             <p>I'm a web developer and graduate of the Engineering Immersion bootcamp at Thinkful. I love coding because it's like making a living solving puzzles. 
@@ -29,20 +26,27 @@
             </p>
         </section>
 
-        <section>
+        <section role = "projects">
             <h1>~</h1>
             <h2>Projects</h2>
-            <div class = "project">Quiz App</div>
-            <div class = "project">Project 2</div>
-            <div class = "project">Project 3</div>
-
+            <div class = "project">
+                <h3>Quiz App</h3>
+                <p>A quiz to test your vocabulary. Minimal, intuitive design with simple animations. Uses CSS, HTML, Javascript, and Jquery.</p>
+                <img src="resources/quiz-image.png" alt="">
+                <a href="https://d-h-chan.github.io/quiz-app-2/" target="_blank">Live Demo</a>
+                <a href="https://github.com/d-h-chan/quiz-app-2" target="_blank">Repo</a>
+            </div>
+            <div class = "project">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
+            </div>
         </section>
         
     </main>
-    <footer role="content-info" class= "links">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github-square"></i>
-        <i class="fas fa-envelope-square"></i>
+    <footer role="contact" class= "links">
+        <a href="https://www.linkedin.com/in/danielhchan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/d-h-chan" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="mailto: daniel.hoyin.chan@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
     </footer>
 </body>
 </html>
