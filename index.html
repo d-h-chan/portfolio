@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato|Lustria&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre|Muli:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-=
     <main role="main">
         <header role="navbar">
-            <a href="https://github.com/d-h-chan/portfolio"></a>
+            <nav>
+                <ul>
+                    <li class="align-self">
+                        <a href="https://github.com/d-h-chan/portfolio">Daniel Chan</a>
+                    </li>
+                    <li>
+                        <a>Projects</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
-        <section role = "about" class = "about">
-            <h1>~</h1>
-            <h2>About</h2>
-            <p>I'm a web developer and graduate of the Engineering Immersion bootcamp at Thinkful. I love coding because it's like making a living solving puzzles. 
-            </p>
-            <p>When not coding, you'll find at the gym, playing piano, or making videos for youtube. 
-            </p>
+        <section role="introduction" class="introduction">
+            <h1>
+                Hi, I'm Daniel. I'm a full-stack web developer and software engineer.
+            </h1>
+            <a>More about me</a>
         </section>
 
-        <section role = "projects">
-            <h1>~</h1>
-            <h2>Projects</h2>
-            <div class = "project">
-                <h3>Quiz App</h3>
-                <p>A quiz to test your vocabulary. Minimal, intuitive design with simple animations. Uses CSS, HTML, Javascript, and Jquery.</p>
-                <img src="resources/quiz-image.png" alt="">
-                <br>
-                <a href="https://d-h-chan.github.io/quiz-app-2/" target="_blank">Live Demo</a>
-                <a href="https://github.com/d-h-chan/quiz-app-2" target="_blank">Repo</a>
-            </div>
-            <div class = "project">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
+        <section role="projects" class="projects">
+
+            <div class="flex-container">
+                <figure>
+                    <img src="resources/theme-song-image.png">
+                    </a>
+                    <figcaption>
+                        <h3>
+                            Theme Song
+                        </h3>
+                        <p>
+                            An application that will let the user search for songs by their lyric or theme, using the
+                            Genius Lyrics API
+                        </p>
+                        <a href="https://theme-song-app.now.sh/" target="_blank">
+                            <a href="https://github.com/d-h-chan/theme-song-client" target="_blank"
+                                target="_blank">Client Repo</a>
+                            <a href="https://github.com/d-h-chan/theme-song" target="_blank" target="_blank">API
+                                Repo</a>
+
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="resources/perfect-pitch-image.png">
+                    <figcaption>
+                        <h3>
+                            Pitch Trainer
+                        </h3>
+                        <p>
+                            An application that will let the user test and train their sense of musical pitch.
+                        </p>
+                        <a href="https://github.com/d-h-chan/perfect-pitch" target="_blank">Client Repo</a>
+                        <a href="https://github.com/d-h-chan/perfect-pitch-server" target="_blank">API Repo</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="resources/pokedex-image.png">
+                    <figcaption>
+                        <h3>
+                            Pokédiscover
+                        </h3>
+                        <p>
+                            An app that displays data from the Pokémon api (https://pokeapi.co/) in a clean and
+                            informative way that both novice trainers and experts can use.
+                        </p>
+                        <a href="https://d-h-chan.github.io/pokedex-app/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/d-h-chan/pokedex-app" target="_blank">Repo</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="resources/quiz-image.png">
+                    <figcaption>
+                        <h3>Quiz App</h3>
+                        <p>A quiz to test your vocabulary. Minimal, intuitive design with simple animations. Uses CSS,
+                            HTML, Javascript, and Jquery.
+                        </p>
+                        <a href="https://d-h-chan.github.io/quiz-app-2/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/d-h-chan/quiz-app-2" target="_blank">Repo</a>
+                    </figcaption>
+                </figure>
             </div>
         </section>
-        
+
     </main>
-    <footer role="contact" class= "links">
+    <footer role="contact" class="links">
         <a href="https://www.linkedin.com/in/danielhchan/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/d-h-chan" target="_blank"><i class="fab fa-github-square"></i></a>
         <a href="mailto: daniel.hoyin.chan@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
     </footer>
 </body>
+
 </html>

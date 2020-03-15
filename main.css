@@ -1,4 +1,115 @@
 * {
   box-sizing: border-box;
+  text-align: center;
+  font-family: 'Miriam Libre';
+  color: #BBC9DE;
+  font-weight: 400;
+  margin: 0 auto;
 }
 
+body {
+  background-color: #FEFDF8;
+}
+
+.projects {
+  background-color: #3F4B9A;
+}
+
+figcaption {
+  background-color: #FEFDF8;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  padding: 100px 30px;
+}
+
+h1, h2, h3 {
+  font-family: 'Muli';
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 38px;
+  max-width: 850px;
+  color: #3F4B9A;
+}
+
+h3 {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {  
+  width: 100px;  
+  background-color: #8cacea;  
+  margin: 8px;
+}
+
+.align-self {
+  margin: auto;
+  margin-left: 10px;
+}
+
+
+figure {
+  width: calc(33.33% - 24px);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.1), 0 0 2px 1px rgba(0,0,0,0.03);
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    font-size: 15px;
+  }
+
+  figure {
+    width: calc(50% - 24px);
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+     font-size: 14px;
+  }
+
+  figure {
+    width: 100%;
+  }
+}
