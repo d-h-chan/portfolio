@@ -11,12 +11,11 @@ body {
 }
 
 .projects {
-  background-color: #3066BE;
+  background-color: #FFFFFF;
 }
 
 figcaption {
-  color: #B4C5E4;
-  background-color: #3C3744;
+  color: #FFFFFF;
 }
 
 section {
@@ -46,6 +45,7 @@ h3 {
 }
 
 img {
+  border-radius: 10px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -79,8 +79,9 @@ li {
   margin-left: 10px;
 }
 
-
 .flex {
+  background-color: #3BA5F4;
+  padding: 10px;
   margin-bottom: 10px;
   width: calc(33.33% - 24px);
   overflow: hidden;
