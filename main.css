@@ -2,21 +2,21 @@
   box-sizing: border-box;
   text-align: center;
   font-family: 'Miriam Libre';
-  color: #BBC9DE;
   font-weight: 400;
   margin: 0 auto;
 }
 
 body {
-  background-color: #FEFDF8;
+  background-color: #FFFFFF;
 }
 
 .projects {
-  background-color: #3F4B9A;
+  background-color: #3066BE;
 }
 
 figcaption {
-  background-color: #FEFDF8;
+  color: #B4C5E4;
+  background-color: #3C3744;
 }
 
 section {
@@ -33,11 +33,14 @@ h1, h2, h3 {
 h1 {
   font-size: 38px;
   max-width: 850px;
-  color: #3F4B9A;
+  color: #090C9B;
+}
+
+h2 {
+  margin-bottom: 50px;
 }
 
 h3 {
-  font-size: 1.4rem;
   padding: 0;
   margin: 0;
 }
@@ -52,6 +55,7 @@ a {
   margin: 0;
   padding: 0;
   opacity: 0.75;
+  color: #3066BE;
 }
 
 a:hover {
@@ -66,10 +70,8 @@ ul {
   justify-content: flex-end;
 }
 
-li {  
-  width: 100px;  
-  background-color: #8cacea;  
-  margin: 8px;
+li {   
+  margin: 10px;
 }
 
 .align-self {
@@ -78,13 +80,13 @@ li {
 }
 
 
-figure {
+.flex {
+  margin-bottom: 10px;
   width: calc(33.33% - 24px);
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 6px 6px rgba(0,0,0,0.1), 0 0 2px 1px rgba(0,0,0,0.03);
 }
-
 
 .flex-container {
   display: flex;
@@ -98,7 +100,7 @@ figure {
     font-size: 15px;
   }
 
-  figure {
+  .flex {
     width: calc(50% - 24px);
   }
 }
@@ -109,7 +111,7 @@ figure {
      font-size: 14px;
   }
 
-  figure {
+  .flex {
     width: 100%;
   }
 }
