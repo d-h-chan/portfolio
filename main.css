@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  font-size: 15px;
   background-color: #FFFFFF;
 }
 
@@ -58,7 +59,7 @@ h1, h3, p, button {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: black;
   margin: 20px auto;
   font-weight: 700;
@@ -127,7 +128,6 @@ li {
   margin: 5px;
 }
 
-
 ul li:not(:last-of-type):after {
   color: #0076ff;
   content: '/';
@@ -141,7 +141,7 @@ nav ul li:first-of-type:after {
 }
 
 nav ul {
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 footer ul {
@@ -149,6 +149,7 @@ footer ul {
 }
 
 .align-self {
+  display: none;
   margin: auto;
   margin-left: 10px;
 }
@@ -164,7 +165,7 @@ footer ul {
 .flex {
   padding: 10px;
   margin: 10px;
-  width: calc(50% - 24px);
+  width: 100%;
 }
 
 .info-section {
@@ -197,21 +198,28 @@ footer ul {
   color: #62d0c5;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 16px;
+  }
 
+  nav ul {
+    justify-content: flex-end;
+  }
+  .align-self {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 860px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.4 rem
   }
 
   .flex {
-    width: 100%;
+    width: calc(50% - 24px);
   }
 }
 
-@media screen and (max-width: 480px) {
-  body {
-     font-size: 15px;
-  }
 
-}
 
